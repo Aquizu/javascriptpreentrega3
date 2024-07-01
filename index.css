@@ -1,0 +1,38 @@
+body {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  background-color: slategray;
+  align-content: center;
+  text-align: center;
+  align-items: center;
+}
+.div1 {
+  border: 2px solid black;
+  min-width: 600px;
+  text-align: center;
+  justify-items: center;
+}
+.taskForm {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.input {
+  width: 300px;
+  height: 25px;
+  margin: 10px;
+  border-radius: 10px;
+}
+.button {
+  width: 300px;
+  height: 25px;
+  margin: 10px;
+  border-radius: 20px;
+}
+ul {
+  list-style: none;
+  display: flex;
+  font-size: 20px;
+}
